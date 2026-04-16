@@ -1,0 +1,48 @@
+[gd_scene load_steps=4 format=3 uid="uid://dh30ppcgatj0o"]
+
+[ext_resource type="Script" path="res://background_sky_water.gd" id="1_j5p1c"]
+[ext_resource type="Texture2D" uid="uid://cr5ls821pstim" path="res://assets/SunnyLandBasic/PNG/environment/layers/back.png" id="1_mryqg"]
+[ext_resource type="Texture2D" uid="uid://du2dv667rn2cv" path="res://assets/SunnyLandBasic/PNG/environment/layers/middle.png" id="2_u86vy"]
+
+[node name="BackgroundSkyWater" type="ParallaxBackground"]
+script = ExtResource("1_j5p1c")
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2(1152, 0)
+
+[node name="SkyWaterBG" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(575, 360)
+scale = Vector2(3, 3)
+texture = ExtResource("1_mryqg")
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(0.7, 1)
+motion_mirroring = Vector2(1232, 0)
+
+[node name="Mountains1" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(88, 464)
+texture = ExtResource("2_u86vy")
+
+[node name="Mountains2" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(264, 464)
+texture = ExtResource("2_u86vy")
+
+[node name="Mountains3" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(440, 464)
+texture = ExtResource("2_u86vy")
+
+[node name="Mountains4" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(616, 464)
+texture = ExtResource("2_u86vy")
+
+[node name="Mountains5" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(792, 464)
+texture = ExtResource("2_u86vy")
+
+[node name="Mountains6" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(968, 464)
+texture = ExtResource("2_u86vy")
+
+[node name="Mountains7" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1144, 464)
+texture = ExtResource("2_u86vy")
