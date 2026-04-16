@@ -1,4 +1,4 @@
-# ForTheFoxes
+# for-the-foxes
 
 For The Foxes is a sample game made in Godot 4 which includes collecting cherries and avoiding frog enemies.
 
